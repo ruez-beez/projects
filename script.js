@@ -1,5 +1,5 @@
 function toggle(){
-    var x = document.getElementById("fFact");
+    var x = document.getElementById("fFact"); //makes the funfact section show up on button click//
     if(x.style.display === "none"){
         x.style.display = "block";
         document.getElementById("button").innerText = "Hide";
@@ -7,7 +7,7 @@ function toggle(){
 
     else {
         x.style.display = "none";
-         document.getElementById("button").innerText = "Show";
+         document.getElementById("button").innerText = "Show";//on button click makes funfact section hidden//
     }
 }
 
